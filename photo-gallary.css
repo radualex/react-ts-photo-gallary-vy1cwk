@@ -1,0 +1,84 @@
+*{
+  user-select: none; /* Standard */
+}
+
+.container-image{
+  height: 409px;
+  width: 426px;
+  position: relative;
+  box-shadow: 0px 24px 24px 0px #C6ECEA;
+  border-radius: 15px;
+}
+
+.container-image img{
+  border-radius: 15px;
+}
+
+.container-image img.show{
+    display: block;
+}
+.container-image img.hide{
+    display: none;
+}
+
+.container-image .nav{
+  position: absolute;
+  top: 385px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container-image .nav .rectangle{
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  width: 15px;
+  background: white;
+  height: 3px;
+  background: #FFFFFF;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.container-image .nav .active{
+  background: #2C698D;
+  width: 30px;
+  /* transition: 0.4s ease-out; */
+}
+
+.container-image .heart{
+  position: absolute;
+  left: 353px;
+  bottom: 336px;
+  width: 44px;  
+  height: 44px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.container-image .heart i{
+  color: #FF5F5F;
+}
+
+.container-image .swipe{
+  height: 100%;
+  width: 30%;
+  position: absolute;
+  top:0;
+  z-index: 1;
+}
+
+.container-image .swipe.left{
+  left:0;
+}
+
+.container-image .swipe.right{
+  right:0;
+}

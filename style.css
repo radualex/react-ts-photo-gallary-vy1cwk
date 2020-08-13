@@ -1,0 +1,9 @@
+.container {
+  font-family: Lato;
+  background-color: #E3F6F5;
+  height: 95vh;
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
