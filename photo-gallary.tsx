@@ -51,12 +51,6 @@ export default class PhotoGallary extends Component<{}, PhotoGalleryState> {
     let status = "";
     let navs = [];
 
-    // if (this.preLoadedPhotos[this.state.current].liked) {
-    //   status = <i class="material-icons">favorite</i>;
-    // } else {
-    //   status = <i class="material-icons">favorite_border</i>;
-    // }
-
     for (let i = 0; i < 4; i++) {
       navs.push(
         <div
